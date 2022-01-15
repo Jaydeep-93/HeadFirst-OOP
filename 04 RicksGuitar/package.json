@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc -w"
+    "compile" : "tsc",
+    "watch-tsc": "tsc -w",
+    "run" : "node .\\dist\\FindGuitarTester.js",
+    "start" : "npm run compile && npm run run"
   },
   "keywords": [],
   "author": "",

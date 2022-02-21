@@ -14,10 +14,6 @@ export class Remote {
         }
         else {
             this.door.openDoor(); 
-            setTimeout(() => {
-                this.door.close(); 
-                console.log(`Door is open : ${this.door.isOpen()}`);
-            }, 5000); 
         }
         console.log(`status Door is open : ${this.door.isOpen()}`);
     }

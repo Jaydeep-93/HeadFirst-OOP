@@ -7,12 +7,17 @@ export class DogDoor {
     }
 
     public openDoor(): void {
-        console.log("The dog door opens.");
+        console.log("OPening Dog door .... ");
         this.open = true;
+        setTimeout(() => {
+            this.close(); 
+            console.log(`Door is open : ${this.isOpen()}`);
+        }, 3000); 
+
     }
 
     public close(): void {
-        console.log("The dog door closes.");
+        console.log("closing dog door ....");
         this.open = false;
     }
 

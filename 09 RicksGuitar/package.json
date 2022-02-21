@@ -1,0 +1,18 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "tsc",
+    "watch-tsc": "tsc -w",
+    "run" : "node .\\dist\\FindGuitarTester.js",
+    "start" : "npm run compile && npm run run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
